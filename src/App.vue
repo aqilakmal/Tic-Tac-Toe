@@ -44,6 +44,7 @@
 
 <script>
 
+  // Check if there is any winner
   function checkBoard(b) {
     if (b.tl == b.tm && b.tl == b.tr && ![b.tm,b.tl,b.tr].includes(0)) { return "ht" }
     else if (b.cl == b.cm && b.cl == b.cr && ![b.cm, b.cl, b.cr].includes(0)) { return "hc" }
@@ -59,12 +60,14 @@
     else {return false}
   }
 
+  // Check if the board is a draw
   function isDraw(b) {
     if (![b.tl, b.tm, b.tr, b.cl, b.cm, b.cr, b.bl, b.bm, b.br].includes(0)) {
       return true
     } else { return false }
   }
 
+  // Mapping the position played for the Game Info
   function mapPos(p) {
     const mapper = {
       tl: "Top Left", tm: "Top Middle", tr: "Top Right",
@@ -232,6 +235,7 @@
     border-radius: 5px;
   }
 
+  /* wl: winner line, h: horizontal, v: vertical, d: diagonal */
   .wl-ht { margin-top: -5px; width: 150px; height: 10px; top: 16.6%; }
   .wl-hc { margin-top: -5px; width: 150px; height: 10px; top: 50%; }
   .wl-hb { margin-top: -5px; width: 150px; height: 10px; top: 83.4%; }
