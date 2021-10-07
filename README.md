@@ -6,7 +6,7 @@ The game I made has  9 buttons where each has a **dynamic class and attributes**
   <img alt="Draw" src="src/assets/draw.jpg" width="47%">
 </p>
 
-To run the program:
+To **run** TicTacTow:
 1. Download / Clone the project.
 2. Open terminal and ```cd``` into the TicTacToe folder.
 3. Run ```npm run serve``` in the terminal.
