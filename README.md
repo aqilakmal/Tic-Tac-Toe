@@ -1,4 +1,7 @@
 ## Tic Tac Toe using Vue JS
+
+Try it out **here**: https://aqilakmal.github.io/TicTacToe/
+
 The game I made has  9 buttons where each has a **dynamic class and attributes**, using Vue JS, to control the colors and the shapes of played. It **logs the moves** of each player under the "Game Info".
 
 <p>
