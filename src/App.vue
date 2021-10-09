@@ -111,6 +111,7 @@
             this.color = "#0D6EFD"
             const checkResult = checkBoard(this.board)
             
+            // Check the game state: winner, draw / continue
             if (checkResult) {
               this.message += "<strong class='text-danger'>Red is the Winner!</strong><br>"
               this.gameStop = true
