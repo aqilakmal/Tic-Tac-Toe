@@ -1,6 +1,6 @@
 ## Tic Tac Toe using Vue JS
 
-Try it out **here**: https://aqilakmal.github.io/TicTacToe/
+Try it out **here**: https://aqilakmal.github.io/Tic-Tac-Toe/
 
 The game I made has  9 buttons where each has a **dynamic class and attributes**, using Vue JS, to control the colors and the shapes of played. It **logs the moves** of each player under the "Game Info".
 
@@ -10,8 +10,9 @@ The game I made has  9 buttons where each has a **dynamic class and attributes**
 </p>
 
 To **run** TicTacToe:
+
 1. Download / Clone the project.
-2. Open terminal and ```cd``` into the TicTacToe folder.
-3. Run ```npm run serve``` in the terminal.
+2. Open terminal and ``cd`` into the TicTacToe folder.
+3. Run ``npm run serve`` in the terminal.
 4. Go to the link shown in the terminal.
 5. Have fun!
