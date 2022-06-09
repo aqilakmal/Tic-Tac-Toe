@@ -94,6 +94,7 @@
       }
     },
     methods: {
+      // Switch player
       switchPlayer(c) {
         this.player = c
         switch (c) {
