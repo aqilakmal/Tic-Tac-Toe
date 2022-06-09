@@ -103,6 +103,7 @@
         }
       },
 
+      // When a cell in clicked, invoke the change method
       change(p) {
         if (this.board[p] == 0) {
           if (this.player == "Red") {
