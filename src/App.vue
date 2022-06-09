@@ -93,8 +93,8 @@
         winnerLinePos: "draw"
       }
     },
-    methods: {  
-      // Switch player with their colours
+    methods: {
+      // Switch player
       switchPlayer(c) {
         this.player = c
         switch (c) {
